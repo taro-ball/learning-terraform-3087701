@@ -1,11 +1,3 @@
-variable "AWS_SECRET_ACCESS_KEY" {
-  default = ""
-}
-
-variable "AWS_ACCESS_KEY_ID" {
-  default = ""
-}
-
 data "aws_ami" "app_ami" {
   most_recent = true
 
