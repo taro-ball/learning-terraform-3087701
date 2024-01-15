@@ -43,7 +43,7 @@ module "alb" {
       protocol    = "HTTP"
       port        = 80
       target_type = "instance"
-      #targets     = []
+      targets     = []
     }
 
     protocol_version = "HTTP1"
